@@ -18,6 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
+### Some quick notes
+
+* It's entirely possible this will only support ruby 2.1 and above
+* One goal is to clean up the rough edges of the dsl. The original is
+  really good, but it needs to be super consistent.
+* Another goal is to have really really good tests
+* And the most important goal is to do as little as possible to
+  accomplish the other goals. That means using the mail gem for almost
+  everything, not trying to be too clever, probably other things I
+  haven't thought of.
+
 ### Basics
 
 ```ruby
